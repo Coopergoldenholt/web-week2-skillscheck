@@ -184,7 +184,7 @@ describe('Week Two Skills Check', function () {
 			expect(totallyAwesome).toBeDefined()
 		})
 		it('totallyAwesome should return the correct array', function () {
-			expect(totallyAwesome).toEqual(44)
+			expect(totallyAwesome).toEqual(42)
 		})
 	})
 })

@@ -1,0 +1,121 @@
+body {
+   position: absoulute; 
+   margin: 0;
+}
+
+header {
+    height: 10vh;
+    width: 100vw;
+    background: grey;
+    margin: none;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.company {
+    display: flex;
+    align-self: center;
+    justify-content: flex-start;
+    padding: 50px;
+}
+
+.side-bar {
+    align-self: center;
+
+}
+ul {
+    padding-inline-start: 0;
+}
+
+.list {
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.home, .about, .contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.top {
+    background: black;
+    height: 30vh;
+}
+
+.text {
+    color: yellow;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: stretch;
+    padding-top: 80px;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.bottom-box{
+    height: 40vh;
+}
+
+.three-boxes{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+
+}
+.first-box, .second-box, .third-box {
+    height: 125px;
+    width: 125px;
+    background: aqua;
+    border-radius: 20px;
+    
+}
+
+.two-boxes {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.first-orange-box, .second-orange-box {
+    height: 125px;
+    width: 45vw;
+    background: lightcoral;
+    
+}
+
+.text-and-picture-box {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+        flex-wrap: wrap;
+        font-size: xx-small;
+        padding-bottom: 20px;
+    }
+
+.text-box, .picture{
+    height: 125px;
+    width: 175px;
+    
+    
+}
+
+.footer{
+    background: purple;
+    height: 10vh;
+    
+}
+
+
+
+
+
