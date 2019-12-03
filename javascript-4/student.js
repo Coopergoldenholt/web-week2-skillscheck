@@ -57,13 +57,13 @@ let homeTown = me.homeTown
 //These arguments should be the three items remaining in your colors array. 
 
 function setColor (arr){
-   let color = arr.splice(3)
+   let color = arr.splice(0,3)
     for(let i = 0; i < arr.length; i++){
 
         if(color[i] === 'blue'){
             color[i] = '#4D4FF'
         }
-    } background(color)
+    } background(color[0], color[1], color[2])
 }
 
 //////////////////Step 5////////////////////
